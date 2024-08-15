@@ -1,0 +1,25 @@
+body{
+    background-color: #212121;
+    color: bisque;
+}
+
+li,ul{
+    list-style-type: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8%;
+}
+form *{
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+input{
+    text-align: center;
+}
